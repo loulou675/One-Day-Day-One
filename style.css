@@ -246,7 +246,7 @@ body[data-story="2"] .story-panel[data-step="2"] {
 
 .story-text {
   margin: 0;
-  max-width: min(85vw, 70rem);
+  max-width: min(85vw, 80rem);
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(1.25rem, min(2.8vw, 5vh), 3rem);
   line-height: 1.25;
@@ -254,7 +254,7 @@ body[data-story="2"] .story-panel[data-step="2"] {
 
 /* Câu "One day…" */
 .story-quote {
-  max-width: min(100%, 75rem);
+  max-width: min(100%, 85rem);
   font-size: clamp(1.75rem, min(4.2vw, 8vh), 5rem);
   line-height: 1.15;
 }
