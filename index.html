@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>One Day, Day One</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <link rel="stylesheet" href="https://use.typekit.net/wey3gcq.css" />
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+    <script src="sketch.js"></script>
+    <div id="scroll-space">
+      <div id="scene">
+        <div id="one-day-title">
+          <span class="title-col title-left">
+            <span class="word word-old">ONE</span>
+            <span class="word word-new" aria-hidden="true">DAY</span>
+          </span>
+          <span class="title-col title-right">
+            <span class="word word-old">DAY</span>
+            <span class="word word-new" aria-hidden="true">ONE</span>
+          </span>
+        </div>
+
+        <div id="scroll-hint" aria-hidden="true">
+          <span class="scroll-hint-text"
+            >Scroll down to experience</span
+          >
+          <span class="scroll-hint-arrow">↓</span>
+        </div>
+
+        <section class="story-panel" data-step="0">
+          <blockquote class="story-text story-quote">
+            One day the cities we call home may sink quietly beneath the rising
+            sea.
+          </blockquote>
+        </section>
+
+        <section class="story-panel" data-step="1">
+          <p class="story-text">
+            Since 1993, sea levels have risen about 11&nbsp;cm, and the rate has
+            nearly doubled as warming seawater expands and ice melts.
+          </p>
+          <p class="story-source">
+            Source:
+            <a
+              href="https://wmo.int/sites/default/files/2026-03/State%20of%20the%20Climate%202025_1%20pager_final.pdf"
+              target="_blank"
+              rel="noopener"
+              >WMO – State of the Global Climate 2025</a
+            >;
+            <a
+              href="https://eos.org/research-and-developments/sea-level-rise-is-accelerating-scientists-confirm"
+              target="_blank"
+              rel="noopener"
+              >Eos – Sea level rise is accelerating</a
+            >
+          </p>
+        </section>
+
+        <section class="story-panel" data-step="2">
+          <p class="story-text">
+            Burning fossil fuels has pushed greenhouse gases to their highest
+            levels in 800,000 years, and Greenland and Antarctica are now losing
+            ice 5–6 times faster than 30 years ago.
+          </p>
+          <p class="story-source">
+            Source:
+            <a
+              href="https://wmo.int/sites/default/files/2026-03/State%20of%20the%20Climate%202025_1%20pager_final.pdf"
+              target="_blank"
+              rel="noopener"
+              >WMO – State of the Global Climate 2025</a
+            >;
+            <a
+              href="https://drtomharris.substack.com/p/we-cannot-negotiate-with-the-melting"
+              target="_blank"
+              rel="noopener"
+              >ICCI State of the Cryosphere 2025 (summary)</a
+            >
+          </p>
+        </section>
+      </div>
+    </div>
+
+    <section id="closer">
+      <div class="closer-left">
+        <p class="closer-eyebrow">Closer than you think</p>
+        <h2>
+          The sea is not rising somewhere far away but in the cities we grew up
+          in
+        </h2>
+      </div>
+
+      <ul class="closer-list">
+        <li>
+          <strong>Ho Chi Minh City:</strong>
+          The city has sunk an estimated 1 metre since 1990, and high tides in
+          late 2025 broke historical records.
+          <span class="cite"
+            >(<a
+              href="https://www.vtcnews.vn/tp-hcm-co-nguy-co-trong-nhom-10-thanh-pho-dang-chim-nhanh-nhat-the-gioi-ar987067.html"
+              target="_blank"
+              rel="noopener"
+              >VTC News</a
+            >)</span
+          >
+        </li>
+        <li>
+          <strong>Cà Mau:</strong>
+          The province loses over 400 hectares of land to the sea every year.
+          <span class="cite"
+            >(<a
+              href="https://nhandan.vn/bao-ve-la-chan-sinh-thai-noi-cuc-nam-to-quoc-post979080.html"
+              target="_blank"
+              rel="noopener"
+              >Nhân Dân</a
+            >)</span
+          >
+        </li>
+        <li>
+          <strong>Mekong Delta:</strong>
+          Nearly 1.7 million people have left over the past decade, as droughts,
+          saltwater intrusion and floods cut farm incomes.
+          <span class="cite"
+            >(<a
+              href="https://news.tuoitre.vn/nearly-17mn-leave-vietnams-mekong-delta-over-past-decade-as-pressures-mount-world-bank-103251218155539659.htm"
+              target="_blank"
+              rel="noopener"
+              >Tuổi Trẻ News</a
+            >;
+            <a
+              href="https://vietnamnews.vn/society/1732190/world-bank-report-spotlights-mounting-environmental-economic-pressures-on-mekong-delta.html"
+              target="_blank"
+              rel="noopener"
+              >Việt Nam News</a
+            >)</span
+          >
+        </li>
+      </ul>
+    </section>
+
+    <section id="quote-page">
+      <div class="quote-text">
+        <div class="sdg-label">
+          <p class="closer-eyebrow">SDG 13: Climate Action</p>
+          <img
+            class="sdg-icon"
+            src="media/Goal-13.png"
+            alt="SDG 13: Climate Action icon"
+          />
+        </div>
+
+        <p>
+          Most of us have heard about climate change, but knowing it exists is
+          different from understanding how it connects to our lives. As Leonardo
+          DiCaprio said,
+          <q
+            >I believe humankind has looked at climate change in that same way:
+            as if it were a fiction, happening to someone else's planet</q
+          >
+          His words challenge the distance we often put between ourselves and
+          the crisis. SDG 13 calls for action on climate change, and
+          understanding its local impacts can help us see where to begin.
+        </p>
+
+        <p class="quote-cta">
+          Look beyond the headlines: discover how climate change is affecting
+          your community today. The future is one day away, so your action
+          starts on day one.
+        </p>
+      </div>
+
+      <figure class="quote-person">
+        <button
+          class="flip-card"
+          type="button"
+          aria-label="Flip to learn about Leonardo DiCaprio"
+        >
+          <span class="flip-inner">
+            <span class="flip-front">
+              <img src="media/Leonardo-DiCaprio.jpg" alt="Leonardo DiCaprio" />
+            </span>
+
+            <span class="flip-back">
+              <span class="flip-title">Actor &amp; climate advocate</span>
+              <span class="flip-text">
+                Leonardo DiCaprio is an Oscar-winning actor and longtime
+                environmental activist who founded his own foundation in 1998 to
+                protect Earth's last wild places, and in 2014 was named UN
+                Messenger of Peace on Climate Change.
+              </span>
+            </span>
+          </span>
+        </button>
+        <figcaption>
+          Leonardo DiCaprio
+          <span class="flip-hint">Click the photo to learn more</span>
+        </figcaption>
+      </figure>
+    </section>
+
+    <footer id="site-footer">
+      <p class="footer-label footer-label-row">Project made by</p>
+
+      <div class="footer-col">
+        <p class="footer-title">Nguyen Phuong Linh</p>
+        <p>s4135042</p>
+      </div>
+
+      <div class="footer-col">
+        <ul class="footer-members">
+          <li>Do Minh Anh <span>s4128616</span></li>
+          <li>Pham Nam Phuong <span>s4138481</span></li>
+          <li>Nguyen Nghia Dung <span>s4113869</span></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <p>COMM2754 –<br />Digital Media Specialisation&nbsp;1</p>
+        <p>Semester 3, 2026</p>
+      </div>
+
+      <div class="footer-col">
+        <p>
+          RMIT University Vietnam, SGS Campus<br />
+          School of Communication and Design
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      // Thẻ lật: bấm vào ảnh để lật qua lại
+      document.querySelectorAll(".flip-card").forEach((card) => {
+        card.addEventListener("click", () =>
+          card.classList.toggle("is-flipped"),
+        );
+      });
+
+      // Gợi ý cuộn: vừa cuộn xuống thì ẩn, cuộn về đầu trang thì hiện lại
+      window.addEventListener("scroll", () => {
+        document.body.classList.toggle("has-scrolled", window.scrollY > 0);
+      });
+
+      // Tiêu đề: máy tính dùng hover (CSS lo), điện thoại thì chạm để đổi ONE DAY ↔ DAY ONE
+      if (!window.matchMedia("(hover: hover)").matches) {
+        const title = document.querySelector("#one-day-title");
+        title.addEventListener("click", () =>
+          title.classList.toggle("is-swapped"),
+        );
+      }
+    </script>
+  </body>
+</html>
